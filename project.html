@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Fun Page</title>
+<style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: rgb(4, 32, 83);
+      color: white;
+      padding: 10px;
+    }
+
+    a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    /* Body */
+    .container {
+      margin: 50px;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: rgb(4, 32, 83);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+      background-color: rgb(4, 32, 83);
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <span  style="font-weight: bold; ">My Fun Page</span>
+    |
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Body -->
+  <div class="container">
+    <h1>Welcome 😄</h1>
+    <p>أنا بتعلم HTML + CSS + JS </p>
+
+    <img src="https://picsum.photos/200" alt="fun image">
+
+    <br>
+
+    <button onclick="hello()">Click Me</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    Made by You 💛
+  </footer>
+
+  <script>
+    function hello() {
+      alert("جامد 😎 كمل!");
+    }
+  </script>
+
+</body>
+</html>
